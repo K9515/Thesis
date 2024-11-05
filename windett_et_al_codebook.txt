@@ -1,0 +1,16 @@
+The Stata file windett_et_al_judicial_scores.dta contains the measures described in:
+
+Windett, Jason H., Jeffrey J. Harden, and Matthew E.K. Hall. 2016. ``Estimating Dynamic Ideal Points for State Supreme Courts.'' Forthcoming, Political Analysis.
+
+The variables are as follows:
+
+id: Unique ID for each judge in the data
+name: Judge's name
+state: State in which the court is located
+fips: State FIPS code
+stateab: State postal abbreviation (note that this variable separates the two courts in OK and TX)
+year: Year of ideal point
+cfscore: Bonica and Woodruff CFscore
+unscaledideal: Unscaled dynamic IRT ideal point
+scaledideal: Dynamic IRT ideal point, scaled into the CFscores' common space
+
